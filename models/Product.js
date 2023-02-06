@@ -25,17 +25,17 @@ Product.init(
       },
     },
 
-    productName: {
+    product_name: {
       type: DataTypes.STRING,
       allowNull:false
     },
 
-    salePrice: {
+    price: {
       type: DataTypes.INTEGER,
       allowNull:false
     },
 
-    inStock: {
+    stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 1
